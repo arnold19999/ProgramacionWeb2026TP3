@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prototipo académico Mba'apo: profesionales, productos y servicios cerca tuyo en Paraguay.">
+  <title>Mba'apo | Talento y servicios de Paraguay</title>
+  <link rel="icon" href="assets/img/icono-maapo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Mba'apo, volver al inicio">
+        <img src="assets/img/logo-maapo.png" alt="Mba'apo">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#explorar">Explorar</a>
+        <a href="#investigacion">Proyecto</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-small btn-primary" href="#explorar">Encontrar talento</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> Hecho para conectar Paraguay</span>
+          <h1>El trabajo que necesitás, <span>más cerca tuyo.</span></h1>
+          <p>Mba'apo reúne profesionales, productos y servicios locales en un espacio confiable, fácil de explorar y pensado para impulsar el talento paraguayo.</p>
+
+          <form class="hero-search" id="heroSearch" role="search">
+            <label class="sr-only" for="searchInput">¿Qué servicio necesitás?</label>
+            <div class="search-field">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+              <input id="searchInput" type="search" placeholder="Ej.: fotografía, diseño, productos..." autocomplete="off">
+            </div>
+            <button class="btn btn-primary" type="submit">Buscar ahora</button>
+          </form>
+
+          <div class="quick-links" aria-label="Búsquedas frecuentes">
+            <span>Popular:</span>
+            <button type="button" data-quick="fotografía">Fotografía</button>
+            <button type="button" data-quick="artesanía">Artesanía</button>
+            <button type="button" data-quick="tecnología">Tecnología</button>
+          </div>
+
+          <div class="trust-row">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>AR</span><span>LC</span><span>MG</span><span>+9</span>
+            </div>
+            <div><strong>Comunidad local</strong><small>Prestadores y clientes conectados</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card hero-card-main">
+            <div class="card-image camera-image" role="img" aria-label="Servicio profesional de fotografía"></div>
+            <div class="hero-card-content">
+              <div class="card-head">
+                <div>
+                  <span class="card-type">Servicio destacado</span>
+                  <h2>Fotografía profesional</h2>
+                </div>
+                <span class="rating">★ 4.9</span>
+              </div>
+              <p>Villarrica, Guairá</p>
+              <div class="card-tags"><span>Eventos</span><span>Retratos</span></div>
+            </div>
+          </div>
+          <div class="floating-card floating-verified">
+            <span class="status-icon">✓</span>
+            <div><strong>Perfil verificado</strong><small>Identidad validada</small></div>
+          </div>
+          <div class="floating-card floating-location">
+            <span class="location-pin">⌖</span>
+            <div><strong>Cerca de vos</strong><small>Resultados por ciudad</small></div>
+          </div>
+          <div class="hero-pattern" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <div class="container stats-strip reveal">
+        <article><strong data-counter="17">0</strong><span>departamentos</span></article>
+        <article><strong data-counter="260">0</strong><span>ciudades</span></article>
+        <article><strong data-counter="100">0</strong><span>categorías</span></article>
+        <article><strong data-counter="24">0</strong><span>horas disponible</span></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="como-funciona">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Una conexión simple</span>
+          <h2>De la necesidad al contacto en tres pasos</h2>
+          <p>La propuesta reduce la distancia entre quien ofrece su talento y quien necesita resolver algo.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <span class="step-number">01</span>
+            <div class="step-icon">⌕</div>
+            <h3>Buscá</h3>
+            <p>Elegí el servicio, producto o especialidad y filtrá los resultados por ubicación.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">02</span>
+            <div class="step-icon">◎</div>
+            <h3>Compará</h3>
+            <p>Revisá perfiles, publicaciones, valoraciones y datos del prestador antes de decidir.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">03</span>
+            <div class="step-icon">↗</div>
+            <h3>Contactá</h3>
+            <p>Iniciá una conversación y coordiná el trabajo directamente con el profesional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="explorar">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <span class="eyebrow">Galería dinámica</span>
+            <h2>Explorá oportunidades locales</h2>
+          </div>
+          <p>Contenido simulado desde un arreglo JavaScript, como preparación para su futura conexión con MySQL.</p>
+        </div>
+
+        <div class="filter-bar reveal" id="filterBar" aria-label="Filtrar publicaciones">
+          <button class="filter-btn active" type="button" data-filter="todos">Todos</button>
+          <button class="filter-btn" type="button" data-filter="servicio">Servicios</button>
+          <button class="filter-btn" type="button" data-filter="producto">Productos</button>
+          <button class="filter-btn" type="button" data-filter="destacado">Destacados</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+        <p class="empty-message" id="emptyMessage" hidden>No encontramos coincidencias. Probá con otra palabra.</p>
+      </div>
+    </section>
+
+    <section class="section research-section" id="investigacion">
+      <div class="container research-grid">
+        <div class="research-copy reveal">
+          <span class="eyebrow eyebrow-light">Proyecto académico</span>
+          <h2>Un prototipo funcional respaldado por arquitectura de datos</h2>
+          <p>Este desarrollo representa el ecosistema digital de Mba'apo y vincula la experiencia visual con un modelo relacional normalizado hasta la tercera forma normal.</p>
+          <ul class="check-list">
+            <li><span>✓</span> Entidades, claves primarias y claves foráneas definidas</li>
+            <li><span>✓</span> Relaciones 1:1, 1:N y N:M documentadas</li>
+            <li><span>✓</span> Datos simulados mediante arreglos y manipulación del DOM</li>
+            <li><span>✓</span> Diseño adaptable, accesible y orientado a dispositivos móviles</li>
+          </ul>
+          <a class="btn btn-light" href="docs/modelo-der-maapo.png" target="_blank" rel="noopener">Ver DER completo</a>
+        </div>
+        <div class="architecture-card reveal">
+          <div class="architecture-top">
+            <span>MODELO RELACIONAL · FLUJO PRINCIPAL</span>
+            <span class="live-badge">MySQL</span>
+          </div>
+          <div class="relational-flow" aria-label="Flujo principal del modelo relacional">
+            <div class="relation-node relation-user">
+              <span class="relation-icon">01</span>
+              <div><strong>USUARIO</strong><small>Cliente autenticado</small></div>
+            </div>
+            <div class="relation-arrow arrow-main" aria-hidden="true"><span>1:N</span></div>
+            <div class="relation-node relation-profile">
+              <span class="relation-icon">02</span>
+              <div><strong>PROFESIONAL</strong><small>Perfil, ubicación y datos</small></div>
+            </div>
+            <div class="relation-arrow arrow-main" aria-hidden="true"><span>1:N</span></div>
+            <div class="relation-node relation-post">
+              <span class="relation-icon">03</span>
+              <div><strong>PUBLICACIÓN</strong><small>Producto o servicio</small></div>
+            </div>
+            <div class="relation-arrow arrow-main" aria-hidden="true"><span>1:N</span></div>
+            <div class="relation-node relation-chat">
+              <span class="relation-icon">04</span>
+              <div><strong>CONVERSACIÓN</strong><small>Mensajes y negociación</small></div>
+            </div>
+            <div class="relation-branch" aria-hidden="true"><span>N:M</span></div>
+            <div class="relation-node relation-service">
+              <span class="relation-icon">↔</span>
+              <div><strong>SERVICIOS</strong><small>Catálogo profesional</small></div>
+            </div>
+          </div>
+          <div class="architecture-footer">
+            <span><b>PK</b> claves primarias</span>
+            <span><b>FK</b> claves foráneas</span>
+            <span><b>1:N / N:M</b> cardinalidades</span>
+          </div>
+          <a class="der-preview-link" href="docs/modelo-der-maapo.png" target="_blank" rel="noopener">
+            <img src="assets/img/modelo-der-maapo.png" alt="Vista previa del modelo DER completo de Mba'apo">
+            <span>Abrir modelo DER completo <b>↗</b></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Conversemos</span>
+          <h2>¿Querés formar parte de Mba'apo?</h2>
+          <p>Completá el formulario para solicitar información. La validación se realiza en el navegador con JavaScript.</p>
+          <div class="contact-detail"><span>✦</span><div><strong>Para profesionales</strong><small>Mostrá tus servicios y aumentá tu alcance.</small></div></div>
+          <div class="contact-detail"><span>✦</span><div><strong>Para clientes</strong><small>Encontrá talento local con mayor confianza.</small></div></div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nombre y apellido</label>
+              <input id="name" name="name" type="text" placeholder="Tu nombre completo">
+              <small class="field-error" id="nameError"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" placeholder="nombre@correo.com">
+              <small class="field-error" id="emailError"></small>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="interest">¿Qué te interesa?</label>
+            <select id="interest" name="interest">
+              <option value="">Seleccioná una opción</option>
+              <option value="contratar">Contratar un servicio</option>
+              <option value="publicar">Publicar mis servicios</option>
+              <option value="alianza">Proponer una alianza</option>
+            </select>
+            <small class="field-error" id="interestError"></small>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Contanos brevemente qué necesitás"></textarea>
+            <div class="field-meta"><small class="field-error" id="messageError"></small><small><span id="characterCount">0</span>/300</small></div>
+          </div>
+          <label class="checkbox-row">
+            <input id="privacy" name="privacy" type="checkbox">
+            <span>Acepto el uso de mis datos para responder esta consulta.</span>
+          </label>
+          <small class="field-error" id="privacyError"></small>
+          <button class="btn btn-primary btn-full" type="submit">Enviar consulta <span>→</span></button>
+          <div class="form-success" id="formSuccess" role="status" hidden>
+            <span>✓</span> ¡Mensaje validado correctamente! Esta demostración no envía datos reales.
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/img/logo-maapo.png" alt="Mba'apo">
+        <p>Talento, productos y servicios de Paraguay, conectados en un mismo lugar.</p>
+      </div>
+      <div><strong>Prototipo</strong><a href="#como-funciona">Cómo funciona</a><a href="#explorar">Galería</a><a href="#investigacion">Arquitectura</a></div>
+      <div><strong>Documento</strong><a href="docs/modelo-der-maapo.png">Diagrama ER</a><a href="database/modelo_maapo.sql">Modelo SQL</a><a href="README.md">Información técnica</a></div>
+      <div><strong>Autor</strong><span>Arnaldo Espínola Ramírez</span><span>Programación Web Avanzada</span><span>Trabajo Práctico 03</span></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Mba'apo — Prototipo académico.</span><span>Diseñado en Paraguay 🇵🇾</span></div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
